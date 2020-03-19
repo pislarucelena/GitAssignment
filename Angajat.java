@@ -12,5 +12,10 @@ public class Angajat implements DetaliiAngajat {
 		this.vechime = vechime;
 		this.functie = functie;
 	}
+
+	@Override
+	public void functieAngajat(String name, String functie) {
+		System.out.println("Nume angajat: " + name + "\n"+ "Functie: " + functie);
+	}
 	
 }
